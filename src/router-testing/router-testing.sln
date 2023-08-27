@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "router-testing", "router-testing.csproj", "{0EBFFB24-45C2-44F3-938E-A431FDA1B35C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-router", "..\wpf-router\wpf-router.csproj", "{B91D3C4B-C58E-43A6-8407-1C7A30361153}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "control", "..\RouterControl\control.csproj", "{0AFC9510-1285-458C-AA54-539BDE33C9D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EBFFB24-45C2-44F3-938E-A431FDA1B35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBFFB24-45C2-44F3-938E-A431FDA1B35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBFFB24-45C2-44F3-938E-A431FDA1B35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBFFB24-45C2-44F3-938E-A431FDA1B35C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91D3C4B-C58E-43A6-8407-1C7A30361153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91D3C4B-C58E-43A6-8407-1C7A30361153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91D3C4B-C58E-43A6-8407-1C7A30361153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91D3C4B-C58E-43A6-8407-1C7A30361153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AFC9510-1285-458C-AA54-539BDE33C9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFC9510-1285-458C-AA54-539BDE33C9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFC9510-1285-458C-AA54-539BDE33C9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFC9510-1285-458C-AA54-539BDE33C9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B4B3069-7509-4513-AFB9-C4AEFFD169A1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+# 忽略编译生成的文件
+bin/
+obj/
+
+# 忽略日志文件
+*.log
+
+# 但不要忽略 important.log
+!important.log
+
+# 忽略临时文件
+*.tmp
+
+# 忽略文件夹
+temp/
+
+# 忽略 VS Code 的配置文件夹
+.vscode/

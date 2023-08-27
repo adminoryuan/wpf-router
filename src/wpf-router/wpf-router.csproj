@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>wpf_router</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="core\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RouterControl\control.csproj" />
+  </ItemGroup>
+
+</Project>
