@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using wpfRouter;
-using wpfRouter.impl;
+using wpf_router.core;
+using wpf_router.core.impl;
 
 namespace Wpf_Router.ViewModel
 {

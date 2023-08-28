@@ -14,7 +14,7 @@ namespace wpfRouter.compents
     /// </summary>
     public class WindowComponent : AbstComponent
     {
-        public Window Instance { get { return ReflectUtls.GetInstance<Window>(componentsType); } }
+        public  Window Instance { get { return ReflectUtls.GetInstance<Window>(componentsType); } }
 
         public WindowComponent(Type componentType) : base(componentType)
         {

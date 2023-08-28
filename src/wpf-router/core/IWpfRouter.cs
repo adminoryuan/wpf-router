@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Controls;
 using wpfRouter.model;
 
-namespace wpfRouter
+namespace wpf_router.core
 {
     public interface IWpfRouter
     {

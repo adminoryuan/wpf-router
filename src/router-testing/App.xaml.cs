@@ -6,10 +6,10 @@ using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using wpf_router.core;
+using wpf_router.core.impl;
 using Wpf_Router;
-using wpfRouter;
 using wpfRouter.compents;
-using wpfRouter.impl;
 using wpfRouter.model;
 
 namespace router_testing

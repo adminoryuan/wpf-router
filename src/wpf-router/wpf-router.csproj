@@ -8,11 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="core\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\RouterControl\control.csproj" />
+    <ProjectReference Include="..\control\control.csproj" />
   </ItemGroup>
 
 </Project>

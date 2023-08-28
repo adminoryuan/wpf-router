@@ -9,6 +9,7 @@ namespace wpfRouter.compents
     public abstract class AbstComponent
     {
         protected Type componentsType;
+
         public AbstComponent(Type componentType)
         {
             componentsType = componentType;
